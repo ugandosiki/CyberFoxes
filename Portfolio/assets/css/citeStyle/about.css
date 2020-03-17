@@ -1,0 +1,63 @@
+.about{
+    
+    background: rgb(29,84,135);
+    background: linear-gradient(90deg, rgba(29,84,135,1) 0%, rgba(86,19,171,1) 100%);
+    background: url('../../img/back_two.png')no-repeat ;
+    background-size: cover;
+    position: relative;
+}
+
+.container .wrap_two{
+display: flex;
+justify-content: center;
+}
+
+.container .wrap_two .img_two{
+    margin-top: 100px;
+    text-align: center;
+    
+    
+}
+
+.container .wrap_two .img_two p{
+    color:#fff;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    width: 553px;
+    padding-top: 25px;
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.people .ilya img{
+    box-shadow: 0px 4px 25px #351880;
+    border-radius: 100px;
+    width: 206px;
+}
+
+.people .title_people{
+    padding-top: 10px;
+    margin: 0;
+    color: #BD00FF;
+    font-family: 'Roboto Slab',sans-serif;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.people .title_about{
+    padding: 0;
+    color:#000;
+    font-size: 20px;
+    text-align: center;
+}
+.people .vlad img{
+    box-shadow: 0px 4px 20px #351880;
+    border-radius: 100px;
+    width: 206px;
+}
