@@ -55,13 +55,13 @@
        } 
 
  .wrap_three .forms .input_text{
-    height: 150px;
+    max-height: 40px;
     border-radius: 20px;
 }
 
 .wrap_three .forms textarea{
     width: 100%;
-    height: 200px;
+    max-height: 40px;
     color: black; 
     font-family: 'Roboto Slab',sans-serif;
     font-size: 18px;
