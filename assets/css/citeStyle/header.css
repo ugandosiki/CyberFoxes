@@ -197,10 +197,52 @@ h1{
     }
     
     /* Smartphones (вертикальная) ----------- */
-    @media only screen and (max-width: 320px) {
-    /* стили */
+    @media only screen and (max-height: 785px) {
+        .main_title {
+            padding-top: 24em;
+        }/* стили */
+        .container .wrap_two .img_two {
+            margin-top: 0; 
+    
+        }
+        .wrap_three .img_moon {
+            position: relative;
+            text-align: center;
+            max-height: 300px;
+            height: 100%;
+            top: -60px;
+        }
+    }
+
+    @media only screen and (max-height: 685px) {
+        .main_title .title_text {
+            font-size: 10px;
+            text-align: center;
+            max-width: 50px;
+        }
+        .main_title{
+            display: block;
+            text-align: center;
+            
+            padding-top: 300px;
+        }
+        .titel_text {
+            font-size: 2rem;
+        }
+        img{
+           max-width: 300px;
+        }
+    }
+    @media only screen and (max-height: 600px){
+    .wrap_three .img_moon {
+        position: relative;
+        text-align: center;
+        max-height: 150px;
+        height: 100%;
+        top: -60px;
     }
     
+} 
     /* iPads (вертикальная и горизонтальная) ----------- */
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
      /* стили */

@@ -1,5 +1,5 @@
 .portfolio{
-  background-image: url(/assets/img/portBack.png);
+  background-image: url('../../img/portBack.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -254,4 +254,19 @@
     width: 25px;
     height: 25px;
   }
+}
+
+@media only screen and (max-height: 685px) {
+  .portfolio__slider {
+    top: 0px; 
+    position: relative;
+    border: 2px solid rgb(160, 0, 255);
+    border-radius: 8px;
+    width: none; 
+    height:50%; 
+    background: rgba(58, 142, 228, .3);
+    -webkit-box-shadow: -1px 2px 13px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 13px 4px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 13px 4px rgba(0,0,0,0.75);
+}
 }
