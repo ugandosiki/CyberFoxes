@@ -40,13 +40,39 @@
     border: 1px solid rgba(87, 225, 244, 0.62);
     box-sizing: border-box;
     border-radius: 50px;
+    text-decoration: none;
+}
+.wrap_three .forms input[type="text"]::placeholder {
+    color: black; 
+    font-family: 'Roboto Slab',sans-serif;
+    font-size: 18px;
+   } 
+.wrap_three .forms input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
 }
 
-.wrap_three .forms input[type="text"]::placeholder {
-     color: black; 
-     font-family: 'Roboto Slab',sans-serif;
-     font-size: 18px;
-    } 
+    .wrap_three .forms input[type="text"]:hover{
+        -webkit-box-shadow: 0px 0px 29px 0px rgba(0,247,255,1);
+    -moz-box-shadow: 0px 0px 29px 0px rgba(0,247,255,1);
+    box-shadow: 0px 0px 29px 0px rgba(0,247,255,1);
+        }
+        .wrap_three .forms input[type="email"]:hover{
+            -webkit-box-shadow: 0px 0px 29px 0px rgba(0,247,255,1);
+        -moz-box-shadow: 0px 0px 29px 0px rgba(0,247,255,1);
+        box-shadow: 0px 0px 29px 0px rgba(0,247,255,1);
+            }
+            .wrap_three .forms textarea:hover{
+                -webkit-box-shadow: 0px 0px 29px 0px rgba(0,247,255,1);
+            -moz-box-shadow: 0px 0px 29px 0px rgba(0,247,255,1);
+            box-shadow: 0px 0px 29px 0px rgba(0,247,255,1);
+                }
+                .wrap_three .btn:hover{
+                    -webkit-box-shadow: 0px 0px 29px 0px rgba(0,247,255,1);
+                -moz-box-shadow: 0px 0px 29px 0px rgba(0,247,255,1);
+                box-shadow: 0px 0px 29px 0px rgba(0,247,255,1);
+                    }
+    
 .wrap_three .forms input[type="email"]::placeholder {
         color: black; 
       
@@ -56,7 +82,7 @@
 
  .wrap_three .forms .input_text{
     max-height: 404px;
-    
+    text-decoration: none;
     height: 100%;
     border-radius: 20px;
 }
@@ -75,6 +101,7 @@
     border: 1px solid rgba(87, 225, 244, 0.62);
     box-sizing: border-box;
     border-radius: 50px;
+    text-decoration: none;
 
 }
 
@@ -82,6 +109,7 @@
     color: black; 
     font-family: 'Roboto Slab',sans-serif;
     font-size: 18px;
+    
    } 
 
    .wrap_three .forms_button{
